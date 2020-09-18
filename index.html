@@ -16,11 +16,36 @@
       // Your web app's Firebase configuration
       //add here
       // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
+      
     </script>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="JS/Form.js"></script>
+    <script src="JS/Player.js"></script>
+    <script src="JS/Game.js"></script>
   </head>
   <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCCYmR5wpKBZzAxaOCKcKVr2z3_rPKiHgQ",
+    authDomain: "multiplayer-car-racing-g-c31cd.firebaseapp.com",
+    databaseURL: "https://multiplayer-car-racing-g-c31cd.firebaseio.com",
+    projectId: "multiplayer-car-racing-g-c31cd",
+    storageBucket: "multiplayer-car-racing-g-c31cd.appspot.com",
+    messagingSenderId: "422095870923",
+    appId: "1:422095870923:web:5893ae197b0a865714f44e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  
+</script>
     <script src="sketch.js"></script>
   </body>
 </html>
